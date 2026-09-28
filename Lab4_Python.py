@@ -93,6 +93,21 @@ def swap_files_content():
 
     print("Files swapped successfully with 20 characters per line.\n")
 
+#Швачич. Частина в
+
+def read_and_print_files():
+    """Частина в): Читає вміст файлів TF18_1 та TF18_2 і друкує його по рядках"""
+    files_to_read = ["TF18_1.txt", "TF18_2.txt"]
+
+    for file_name in files_to_read:
+        print(f"--- Content of {file_name} ---")
+        f = Open(file_name, "r")
+        if f:
+            for line in f:
+                print(line.strip())
+            f.close()
+            print(f"File {file_name} closed.\n")
+
 # main
 print("Step 1: Creating initial files")
 create_initial_files()
