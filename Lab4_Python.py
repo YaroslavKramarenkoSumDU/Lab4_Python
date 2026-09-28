@@ -24,7 +24,7 @@ def create_initial_files():
     lines_2 = [
         "Second file initial text.",
         "Another random string here.",
-        "Python file processing task variant 18."
+        "Python file processing task variant 15."
     ]
 
     # Запис у перший файл
