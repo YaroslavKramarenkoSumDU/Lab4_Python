@@ -114,3 +114,6 @@ create_initial_files()
 
 print("Step 2: Swapping files content (Part B)")
 swap_files_content()
+
+print("Step 3: Printing result files (Part C)")
+read_and_print_files()
