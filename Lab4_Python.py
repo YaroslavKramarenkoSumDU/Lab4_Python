@@ -1,3 +1,4 @@
+# Крамаренко. Частина а.
 def Open(file_name, mode):
     """Безпечне відкриття файлу з обробкою винятків try-except"""
     try:
@@ -100,7 +101,7 @@ def read_and_print_files():
     files_to_read = ["TF18_1.txt", "TF18_2.txt"]
 
     for file_name in files_to_read:
-        print(f"--- Content of {file_name} ---")
+        print(f"Content of {file_name}")
         f = Open(file_name, "r")
         if f:
             for line in f:
